@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Paperbackharborapp">
         <activity
+            android:name=".AuthorListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AuthorViewHolder"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

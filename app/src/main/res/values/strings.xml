@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">paperback-harbor-app</string>
+    <string name="j_k_rowling">J. K. Rowling</string>
+    <string name="button">Authors List</string>
 </resources>

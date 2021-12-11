@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Paperback-Harbor/app/src/main/res/layout/activity_author_list.xml" value="0.176" />
+        <entry key="..\:/Paperback-Harbor/app/src/main/res/layout/activity_author_list_element.xml" value="0.25" />
+        <entry key="..\:/Paperback-Harbor/app/src/main/res/layout/activity_author_view_holder.xml" value="0.264" />
         <entry key="..\:/Paperback-Harbor/app/src/main/res/layout/activity_main.xml" value="0.17300724637681159" />
+        <entry key="..\:/Paperback-Harbor/app/src/main/res/layout/author_list_item.xml" value="0.12158054711246201" />
       </map>
     </option>
   </component>

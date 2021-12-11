@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:minHeight="?attr/minTouchTargetSize">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/author_image"
+        android:src="@drawable/jk"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp" />
+
+
+
+    <TextView
+        android:id="@+id/author_name"
+        android:text="@string/j_k_rowling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingEnd="16dp"
+        android:maxLines="1"
+        android:textAppearance="?attr/textAppearanceSubtitle1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/mtrl_list_item_tint"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
