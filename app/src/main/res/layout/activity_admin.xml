@@ -41,6 +41,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?attr/selectableItemBackground"
+        android:minHeight="?attr/minTouchTargetSize"
+        android:id="@+id/remove_user">
+
+        <ImageView
+            android:id="@+id/remove_user_icon"
+            android:src="@drawable/businessman"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"/>
+
+        <TextView
+            android:id="@+id/remove_user_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingEnd="16dp"
+            android:maxLines="1"
+            android:text="REMOVE USERS"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:textColor="@color/mtrl_list_item_tint"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
         android:id="@+id/view_pulisher"
         android:minHeight="?attr/minTouchTargetSize">
 
@@ -92,6 +122,36 @@
             android:paddingEnd="16dp"
             android:maxLines="1"
             android:text="VIEW BOOKS"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:textColor="@color/mtrl_list_item_tint"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:id="@+id/remove_books"
+        android:minHeight="?attr/minTouchTargetSize">
+
+        <ImageView
+            android:id="@+id/remove_book_icon"
+            android:src="@drawable/book"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"/>
+
+        <TextView
+            android:id="@+id/remove_book_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingEnd="16dp"
+            android:maxLines="1"
+            android:text="REMOVE BOOKS"
             android:textAppearance="?attr/textAppearanceSubtitle1"
             android:textColor="@color/mtrl_list_item_tint"/>
 
