@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         btnAuthorView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,AuthorListActivity.class);
+                Intent intent = new Intent(MainActivity.this,Admin.class);
                 startActivity(intent);
             }
         });

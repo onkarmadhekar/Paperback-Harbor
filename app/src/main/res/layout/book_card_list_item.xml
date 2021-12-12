@@ -20,6 +20,7 @@
 
             <!-- Media -->
             <ImageView
+                android:id="@+id/book_image"
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
                 android:src="@drawable/james_clear"
@@ -35,12 +36,14 @@
 
                 <!-- Title, secondary and supporting text -->
                 <TextView
+                    android:id="@+id/book_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/title"
                     android:textAppearance="?attr/textAppearanceHeadline6"
                     />
                 <TextView
+                    android:id="@+id/author_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
@@ -49,6 +52,7 @@
                     android:textColor="?android:attr/textColorSecondary"
                     />
                 <TextView
+                    android:id="@+id/supporting_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
@@ -66,6 +70,7 @@
                 android:layout_margin="8dp"
                 android:orientation="horizontal">
                 <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnRatings"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
@@ -73,6 +78,7 @@
                     style="?attr/borderlessButtonStyle"
                     />
                 <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnReviews"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/action_2"

@@ -13,4 +13,5 @@
         android:id="@+id/author_list_view"
         tools:listitem="@layout/author_list_item" />
 
+
 </LinearLayout>
