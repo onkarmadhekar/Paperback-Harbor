@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Paperbackharborapp">
         <activity
+            android:name=".PublisherDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".PublisherContent"
+            android:exported="false" />
+        <activity
             android:name=".Admin"
             android:exported="false" />
         <activity

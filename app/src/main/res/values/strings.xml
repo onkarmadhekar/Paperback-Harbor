@@ -8,4 +8,9 @@
     <string name="supporting_text">The #1 New York Times bestseller. Over 3 million copies sold!Tiny Changes, Remarkable ResultsNo matter your goals, Atomic Habits offers a proven framework for improving—every day. </string>
     <string name="action_1">Give Ratings</string>
     <string name="action_2">Add Reviews</string>
+    <string name="content_title">Content Title</string>
+    <string name="content_author_name">Author Name</string>
+    <string name="content_text">Description</string>
+    <string name="view_books">VIEW BOOKS</string>
+    <string name="publish_content">PUBLISH CONTENT</string>
 </resources>

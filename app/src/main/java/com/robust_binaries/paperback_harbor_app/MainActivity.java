@@ -9,20 +9,45 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnAuthorView;
+    Button btnUserView;
+    Button btnPublisherView;
+    Button btnAdminView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
-        btnAuthorView = findViewById(R.id.btnAuthorView);
-        btnAuthorView.setOnClickListener(new View.OnClickListener() {
+
+        btnUserView = findViewById(R.id.btnUserView);
+        btnUserView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,BookCard.class);
+                startActivity(intent);
+            }
+        });
+
+        btnPublisherView = findViewById(R.id.btnPublisherView);
+        btnPublisherView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,PublisherDashboard.class);
+                startActivity(intent);
+            }
+        });
+
+        btnAdminView = findViewById(R.id.btnAdminView);
+        btnAdminView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,Admin.class);
                 startActivity(intent);
             }
         });
+
+
+
+
     }
 
 
