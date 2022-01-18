@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">paperback-harbor-app</string>
+    <string name="app_name">Paperback Harbor</string>
+    <string name="j_k_rowling">J. K. Rowling</string>
+    <string name="button">Authors List</string>
+    <string name="content_description_media">This is a demo description</string>
+    <string name="title">Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones</string>
+    <string name="secondary_text">By James Clear</string>
+    <string name="supporting_text">The #1 New York Times bestseller. Over 3 million copies sold!Tiny Changes, Remarkable ResultsNo matter your goals, Atomic Habits offers a proven framework for improving—every day. </string>
+    <string name="action_1">Give Ratings</string>
+    <string name="action_2">Add Reviews</string>
+    <string name="content_title">Content Title</string>
+    <string name="content_author_name">Author Name</string>
+    <string name="content_text">Description</string>
+    <string name="view_books">VIEW BOOKS</string>
+    <string name="publish_content">PUBLISH CONTENT</string>
 </resources>
