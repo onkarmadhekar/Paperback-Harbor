@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Paperback-Harbor/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14322916666666666" />
+        <entry key="..\:/Paperback-Harbor/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Paperback-Harbor/app/src/main/res/font/montserrat.xml" value="0.2037037037037037" />
         <entry key="..\:/Paperback-Harbor/app/src/main/res/layout/activity_admin.xml" value="0.25" />
         <entry key="..\:/Paperback-Harbor/app/src/main/res/layout/activity_author_list.xml" value="0.176" />
@@ -14,6 +16,7 @@
         <entry key="..\:/Paperback-Harbor/app/src/main/res/layout/activity_publisher_dashboard.xml" value="0.25" />
         <entry key="..\:/Paperback-Harbor/app/src/main/res/layout/author_list_item.xml" value="0.1" />
         <entry key="..\:/Paperback-Harbor/app/src/main/res/layout/book_card_list_item.xml" value="0.4" />
+        <entry key="..\:/Paperback-Harbor/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14322916666666666" />
       </map>
     </option>
   </component>
