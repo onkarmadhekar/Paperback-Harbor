@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "502212794292",
+    "firebase_url": "https://paperback-harbor-app-2f430-default-rtdb.firebaseio.com",
+    "project_id": "paperback-harbor-app-2f430",
+    "storage_bucket": "paperback-harbor-app-2f430.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502212794292:android:f81c685e9dc6c4b99944e1",
+        "android_client_info": {
+          "package_name": "com.robust_binaries.paperback_harbor_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502212794292-t9m5tadohmth63a60p8b5mk2s2djfv46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.robust_binaries.paperback_harbor_app",
+            "certificate_hash": "6d9fabb36e09920a3558047eb004ba074b7c6196"
+          }
+        },
+        {
+          "client_id": "502212794292-4lo66btdi3he0or4tieg7f0c2dddcofq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY4yDkC-72hojlSPAxJmmQiYB8hh1Lhgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502212794292-4lo66btdi3he0or4tieg7f0c2dddcofq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
