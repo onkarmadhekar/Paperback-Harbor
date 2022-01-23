@@ -29,6 +29,8 @@ public class Login extends AppCompatActivity {
     Button loginBtn;
     DAOUsers daoUsers;
     DAOAuthors daoAuthors;
+    String superUser;
+    String superUserPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,8 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         daoUsers = new DAOUsers();
         daoAuthors = new DAOAuthors();
+        superUser = "admin";
+        superUserPassword = "Admin@1234";
         usernameLout = findViewById(R.id.login_username);
         passwordLout = findViewById(R.id.login_password);
         radioGroup = findViewById(R.id.login_radio_group);
@@ -43,11 +47,15 @@ public class Login extends AppCompatActivity {
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+
+
                 if (validateUserDetails()) {
                     endUser = findViewById(radioGroup.getCheckedRadioButtonId());
                     String euser = endUser.getText().toString();
                     username = usernameLout.getEditText().getText().toString().trim();
                     password = passwordLout.getEditText().getText().toString().trim();
+
                     if (euser.equals("User")) {
                         Users user = new Users(username);
                         Query checkUser = daoUsers.validateUserCredentials(user);

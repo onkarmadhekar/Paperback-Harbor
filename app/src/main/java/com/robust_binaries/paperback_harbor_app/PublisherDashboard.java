@@ -12,6 +12,7 @@ public class PublisherDashboard extends AppCompatActivity {
 
     Button btnViewBooks;
     Button btnPublishContent;
+    Button btnAdmin1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +34,15 @@ public class PublisherDashboard extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(PublisherDashboard.this,PublisherContent.class);
+                startActivity(intent);
+            }
+        });
+
+        btnAdmin1 = findViewById(R.id.btnAdmin1);
+        btnAdmin1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(PublisherDashboard.this,Admin.class);
                 startActivity(intent);
             }
         });

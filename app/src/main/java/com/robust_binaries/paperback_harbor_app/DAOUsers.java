@@ -11,7 +11,7 @@ public class DAOUsers {
     private final DatabaseReference databaseReference;
 
     public DAOUsers() {
-        FirebaseDatabase db = FirebaseDatabase.getInstance("https://paperback-harbor-app-2f430-default-rtdb.firebaseio.com/");
+        FirebaseDatabase db = FirebaseDatabase.getInstance("https://paperback-harbor-833c1-default-rtdb.firebaseio.com/");
         databaseReference = db.getReference(Users.class.getSimpleName());
     }
 
