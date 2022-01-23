@@ -27,12 +27,10 @@
         <activity
             android:name=".AuthorListActivity"
             android:exported="false" />
-        <activity
-            android:name=".AuthorViewHolder"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"/>
            <activity android:name=".AuthenticateUserData"></activity>
         <activity android:name=".ForgetPasswordSuccessMessage" />
         <activity android:name=".SetNewPassword" />
@@ -47,9 +45,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
+
     </application>
 
 </manifest>

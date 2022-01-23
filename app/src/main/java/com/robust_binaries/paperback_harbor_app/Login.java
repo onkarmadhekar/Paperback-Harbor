@@ -63,6 +63,8 @@ public class Login extends AppCompatActivity {
                                         passwordLout.setError(null);
                                         passwordLout.setErrorEnabled(false);
                                         Toast.makeText(getApplicationContext(), "Login Successful As User!", Toast.LENGTH_LONG).show();
+                                        Intent intent = new Intent(Login.this,BookCard.class);
+                                        startActivity(intent);
                                     } else {
                                         Toast.makeText(getApplicationContext(), "Password Does Not Match !", Toast.LENGTH_LONG).show();
                                     }
@@ -92,6 +94,8 @@ public class Login extends AppCompatActivity {
                                         passwordLout.setError(null);
                                         passwordLout.setErrorEnabled(false);
                                         Toast.makeText(getApplicationContext(), "Login Successful As Author!", Toast.LENGTH_LONG).show();
+                                        Intent intent = new Intent(Login.this,PublisherDashboard.class);
+                                        startActivity(intent);
                                     } else {
                                         Toast.makeText(getApplicationContext(), "Password Does Not Match !", Toast.LENGTH_LONG).show();
                                     }

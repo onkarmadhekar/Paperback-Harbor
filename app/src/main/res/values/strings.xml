@@ -13,7 +13,7 @@
     <string name="content_text">Description</string>
     <string name="view_books">VIEW BOOKS</string>
     <string name="publish_content">PUBLISH CONTENT</string>
-  <string name="app_name">paperback-harbor-app</string>
+
     <string name="login">Login</string>
     <string name="signup">SignUp</string>
     <string name="enter_username">Enter Username</string>
